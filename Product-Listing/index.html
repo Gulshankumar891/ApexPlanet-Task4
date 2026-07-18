@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luxury Product Listing</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+            <i class="fa-solid fa-store"></i>
+            Luxury Product Store
+        </h1>
+
+    </header>
+
+    <section class="controls">
+
+        <input type="text" id="search" placeholder="Search Products...">
+
+        <select id="category">
+
+            <option value="all">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Accessories">Accessories</option>
+
+        </select>
+
+        <select id="sort">
+
+            <option value="default">Sort By</option>
+            <option value="low">Price Low → High</option>
+            <option value="high">Price High → Low</option>
+
+        </select>
+
+    </section>
+
+    <section class="products" id="productContainer">
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

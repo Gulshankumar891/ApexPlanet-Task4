@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luxury To-Do App</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="todo-box">
+
+<h1>
+<i class="fa-solid fa-list-check"></i>
+Luxury To-Do App
+</h1>
+
+<div class="input-box">
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter your task...">
+
+<button id="addBtn">
+
+<i class="fa-solid fa-plus"></i>
+
+Add
+
+</button>
+
+</div>
+
+<div class="filters">
+
+<button class="filter active" data-filter="all">
+
+All
+
+</button>
+
+<button class="filter" data-filter="pending">
+
+Pending
+
+</button>
+
+<button class="filter" data-filter="completed">
+
+Completed
+
+</button>
+
+</div>
+
+<ul id="taskList">
+
+</ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
